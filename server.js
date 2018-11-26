@@ -7,7 +7,7 @@ const exjwt = require('express-jwt')
 const app = express()
 
 app.use((req, res, next) => {
-  res.setHeader('Access-Control-Allow-Origin', 'http://localhost:3000')
+  res.setHeader('Access-Control-Allow-Origin', 'http://www.cambshare.com.s3-website-us-west-1.amazonaws.com')
   res.setHeader('Access-Control-Allow-Headers', 'Content-type, Authorization')
   next()
 })
